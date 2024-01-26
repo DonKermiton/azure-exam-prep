@@ -1,0 +1,20 @@
+<app-upload></app-upload>
+
+<table class="styled-table">
+  <thead>
+      <tr>
+          <th>FileName</th>
+          <th>link</th>
+          <th>Actions</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let file of files" >
+          <td>{{file.filename}}</td>
+          <td><a target="_blank" href="{{file.uri}}">uri</a></td>
+          <td>
+            <button>Delete</button>
+          </td>
+      </tr>
+  </tbody>
+</table>

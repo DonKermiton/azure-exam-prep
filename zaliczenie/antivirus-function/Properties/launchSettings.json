@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "antivirus_function": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7214",
+      "launchBrowser": false
+    }
+  }
+}
